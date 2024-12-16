@@ -887,9 +887,21 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
-		"requiredTech": "Industrialization"
-	},
+        "requiredTech": "Industrialization"
+    },   
 	{
+        "name":"Military Factory",
+        "cost" 400,
+        "production": 6,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Engineer": 3},
+		"requiredBuilding": "Factory",
+        "maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "iron"
+        "requiredTech":"Military Science"
+	},
+    { 
 		"name": "Big Ben",
 		"culture": 1,
 		"gold": 4,
